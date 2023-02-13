@@ -19,8 +19,6 @@
             "type": "process",
             "args": [
                 "publish",
-                "-r",
-                "win-x64",
                 "${workspaceFolder}/MinimalApi.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"

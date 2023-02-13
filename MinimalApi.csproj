@@ -7,4 +7,9 @@
     <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="test.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
